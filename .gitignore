@@ -1,0 +1,63 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Log cua hai service va cac ban do dac
+*.log
+logs/
+ket-qua-do/
+*.out
+
+# Bien moi truong
+.env
+.env.*
+!.env.example
+
+# Ket qua test / coverage
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+
+# Build / tam
+dist/
+build/
+out/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+.cache/
+
+# Trinh soan thao
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS / Linux
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# File tam cua Word khi mo de bai
+~$*.docx
+~$*.doc
+~$*.xlsx
+
+# File de bai giang vien phat, khong can day len git
+*.docx
+*.doc
+*.pdf
